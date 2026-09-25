@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 741) and (max-width: 1023) {
+}
+
+@media (max-width: 740px) {
+  #nav > li {
+    display: block;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+  #header .mobile-menu-btn{
+    display: block;
+  }
+
+#nav {
+    /* display: block; */
+}
+}
