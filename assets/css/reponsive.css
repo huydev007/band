@@ -8,15 +8,36 @@
   #nav > li {
     display: block;
   }
+  #nav > li:first-child {
+  display: inline-block;
+}
+
+
+  #nav {
+    display: block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #2b2b2b;
+    color: #fff;
+  }
+
+  #nav .subnav a{
+    color: #fff;
+    padding: 0px 41px;
+  }
+
+  #header {
+    overflow: hidden;
+  }
 
   #header .search-btn {
     display: none;
   }
+
   #header .mobile-menu-btn{
     display: block;
   }
 
-#nav {
-    /* display: block; */
-}
 }

@@ -98,15 +98,16 @@ html {
   left: 0;
   right: 0;
   z-index: 1;
-  overflow: hidden;
 }
 
 #nav {
   display: inline-block;
 }
+
 #nav > li:first-child {
   display: inline-block;
 }
+
 #nav > li {
   display: inline-block;
 }
