@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 740px) {
+  .s-col-full{
+    width: 100%;
+  }
+
   #nav > li {
     display: block;
   }
@@ -40,4 +44,11 @@
     display: block;
   }
 
+ 
+
+  #content .member-img {
+    width: 70%;
+    height: 70%;
+  }
+  
 }
