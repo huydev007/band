@@ -463,6 +463,15 @@ html {
   font-size: 15px;
 }
 
+.contact-info a {
+  color: #1762d3;
+  opacity: 0.8;
+}
+
+.contact-info a:hover {
+  opacity: 1;
+}
+
 .contact-form .form-control {
   border: 1px solid #ccc;
   width: 100%;
